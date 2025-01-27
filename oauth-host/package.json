@@ -1,0 +1,15 @@
+{
+  "name": "oauth-host",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Jeppe Vinkel Beier <jeppevinkel@gmail.com> (https://github.com/jeppevinkel)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
