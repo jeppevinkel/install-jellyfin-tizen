@@ -7,6 +7,7 @@ on:
   push:
     branches:
       - 'main'
+      - 'feature/*'
 
 jobs:
   docker:
@@ -23,7 +24,7 @@ jobs:
         uses: docker/metadata-action@v5
         id: meta
         with:
-          images: ghcr.io/Georift/install-jellyfin-tizen
+          images: ghcr.io/jeppevinkel/install-jellyfin-tizen
           tags: |
             type=sha
             type=raw,value=latest,enable={{is_default_branch}}
