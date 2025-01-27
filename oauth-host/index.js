@@ -45,7 +45,7 @@ app.post('/signin/callback', async (req, res) => {
     process.exit(0);
 });
 
-app.listen(port, () => {
+app.listen(port, 'localhost', () => {
     console.log(`Open http://localhost:${port}/auth in your browser and sign in to create the developer certificate`);
 });
 
